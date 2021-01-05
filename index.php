@@ -1,4 +1,11 @@
 <?php
 //silence is golden
 
-echo "New theme";
+/**
+ * @package lyra
+ */
+
+
+get_header( );
+get_footer( );
+
