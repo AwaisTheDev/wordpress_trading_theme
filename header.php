@@ -12,7 +12,7 @@
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php wp_title( ); ?></title>
+    
     <?php wp_head(); ?>
 </head>
 
@@ -31,4 +31,4 @@
     <header>
         <?php get_template_part( 'template-parts/header/nav' ); ?>
     </header>
-    <div id="content" class="site-content">
+    <div id="content" class="site-content container pt-5 pb-5">
